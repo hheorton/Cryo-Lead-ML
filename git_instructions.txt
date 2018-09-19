@@ -1,0 +1,17 @@
+
+How to synchronise the forked GitHub repositories:
+
+1. go into the file that you want everything to be in on your computer
+2. > git remote add upstream git://github.com/hheorton/Cryo-Lead-ML
+3. > git fetch upstream
+4. > git merge upstream/master
+
+##this will have callibrated all the files together
+
+Now to commit and push a change:
+
+1. > git add filename.rtf 
+2. > git commit -m "Claude trying to add something"
+3. > git push
+
+123
